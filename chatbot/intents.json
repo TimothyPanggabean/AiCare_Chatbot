@@ -1,0 +1,89 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "service",
+      "patterns": [
+        "What can I use the app for?",
+        "What service do you provide?",
+        "What does the app do?"
+      ],
+      "responses": [
+        "AiCare can scan and detect eye problems using retinal scans",
+        "We provide eye disease scanning services"
+      ]
+    },
+    {
+      "tag": "diseases",
+      "patterns": [
+        "What kind of diseases?",
+        "What can you detect?",
+        "What kind of diseases can the app scan?",
+        "Can you scan pictures for cataract?",
+        "Is glaucoma detectable by the app?",
+        "Can you tell me if my eyes are healthy?"
+      ],
+      "responses": [
+        "As of this version, we can detect, cataract, glaucoma, and healthy eyes",
+        "We can differentiate between cataract, glaucoma, and healthy eyes"
+      ]
+    },
+    {
+      "tag": "results",
+      "patterns": [
+        "Are the results 100% accurate?",
+        "Are the results absolute?",
+        "Should I visit an ophthalmologist?",
+        "Do I need to go to the doctor if a disease is detected?",
+        "I do not trust these results",
+        "What should I do with the results?"
+      ],
+      "responses": [
+        "The results should only be used as precaution, and are not always 100% accurate",
+        "A visit to an ophthalmologist is always recommended, even more so if a disease is detected"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    },
+  ]
+}
